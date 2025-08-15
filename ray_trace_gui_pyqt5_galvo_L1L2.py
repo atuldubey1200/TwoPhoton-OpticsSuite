@@ -1,4 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug 15 13:36:02 2025
 
+@author: atuld
+"""
 """
 Ray Trace GUI — Galvo + L1 + L2 + L2'  (PyQt5 + Matplotlib)
 
