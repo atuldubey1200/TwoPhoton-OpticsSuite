@@ -19,3 +19,26 @@ An **interactive optical ray tracing tool** built in Python using **PyQt5** and 
 ## Installation
 ```bash
 pip install PyQt5 matplotlib numpy
+# Intensity vs AOS GUI
+
+A PyQt5-based application to compute and visualize **Intensity vs Area of Scanning (AOS)** from grayscale images.  
+The tool is useful in imaging workflows (e.g., two-photon microscopy, SLO) where pixel-level intensity distributions need to be quantified.
+
+---
+
+## Features
+- Load common image formats: PNG, JPG, BMP, TIFF
+- Choose AOS calculation mode:
+  - `x*y` (product of pixel indices)
+  - `cumulative` (`(x+1)*(y+1)`)
+- Option to restrict analysis to the left half of the image
+- Interactive plot of **Mean Intensity vs AOS**
+- Export results to CSV (`AOS_pixels, MeanIntensity`)
+
+---
+
+## Installation
+Make sure you have Python 3.8+ installed. Then install the required packages:
+
+```bash
+pip install numpy pillow matplotlib pyqt5
