@@ -16,9 +16,6 @@ An **interactive optical ray tracing tool** built in Python using **PyQt5** and 
 
 ---
 
-## Installation
-```bash
-pip install PyQt5 matplotlib numpy
 # Intensity vs AOS GUI
 
 A PyQt5-based application to compute and visualize **Intensity vs Area of Scanning (AOS)** from grayscale images.  
@@ -42,3 +39,6 @@ Make sure you have Python 3.8+ installed. Then install the required packages:
 
 ```bash
 pip install numpy pillow matplotlib pyqt5
+## Installation
+```bash
+pip install PyQt5 matplotlib numpy
